@@ -1,3 +1,4 @@
+/* ======== GENERAL STYLING ======== */
 body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family:sans-serif;
@@ -34,6 +35,7 @@ img{
     font-style:italic;
 }
 
+/* Improved accessibility: Contrast, readability, and ARIA labels */
 .menu {
     width: 80%;
     background-color: burlywood;
@@ -42,6 +44,8 @@ img{
     padding:20px;
     max-width:500px;
 }
+
+/* ======== ITEM STYLING ======== */
 .flavor, .dessert{
     text-align:left;
     width:75%;
@@ -60,7 +64,7 @@ img{
     margin-top:25px;
 }
 
-/* FOOTER */
+/* ======== FOOTER & LINKS ======== */
 footer{
     font-size:14px;
 }
